@@ -16,6 +16,10 @@ import { IoMenu } from "react-icons/io5";
 function MiniSideBar() {
   return (
     <Box
+    as={'nav'}
+    position="fixed"
+    top={0}
+    left={0}
       display={{ mdDown: "flex", md: "none" }}
       justifyContent={"space-between"}
       width={'10%'}

@@ -6,7 +6,7 @@ import { SiVisa } from "react-icons/si";
 
 function VisaCard() {
   return (
-    <Box width={'350px'} border={'1px solid grey'} borderRadius={10} padding={2}>
+    <Box width={{smDown:'100%', sm:'80%'}} border={'1px solid grey'} borderRadius={10} padding={2}>
       
           <HStack>
             <Text flex={1}>slothui</Text>

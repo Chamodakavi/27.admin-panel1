@@ -64,6 +64,10 @@ function SideDrawer() {
           alignItems="flex-start"
           pl={3}
           justifyContent="space-between"
+          as={'nav'}
+          position="fixed"
+          top={0}
+          left={0}
         >
           <VStack align={"left"}>
             <HStack>
@@ -181,7 +185,7 @@ function SideDrawer() {
   
             <Box
               width={"95%"}
-              mt={"15%"}
+              mt={"3%"}
               height={"6%"}
               display={"flex"}
               alignItems="center"
