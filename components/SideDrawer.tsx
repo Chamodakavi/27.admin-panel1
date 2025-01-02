@@ -14,7 +14,7 @@ import {
 import React from "react";
 import { SiBrevo } from "react-icons/si";
 import { FaSearch } from "react-icons/fa";
-import newStyled from "@emotion/styled";
+import styled from "@emotion/styled";
 import { List, ListItem } from "@chakra-ui/react";
 import { RiHomeLine } from "react-icons/ri";
 import { FaTasks } from "react-icons/fa";
@@ -27,7 +27,7 @@ import { FaRegStar } from "react-icons/fa";
 import { RxExit } from "react-icons/rx";
 import { IoMenu } from "react-icons/io5";
 
-const StyledInput = newStyled(Input)`
+const StyledInput = styled(Input)`
 border:none;
 color:white;
   &:focus {
@@ -35,11 +35,11 @@ color:white;
   }
 `;
 
-const StyledIcon = newStyled(Icon)`
+const StyledIcon = styled(Icon)`
 margin-Right:10px;
 `;
 
-const StyledListItem = newStyled(ListItem)`
+const StyledListItem = styled(ListItem)`
 display: flex;
 align-items: center; 
 margin-top:6%;
