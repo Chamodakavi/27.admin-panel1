@@ -3,6 +3,7 @@ import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { MdAddIcCall } from "react-icons/md";
 import { FaRegQuestionCircle } from "react-icons/fa";
+import PlanCard from "./PlanCard";
 
 const Header = () => {
   return (
@@ -30,6 +31,8 @@ const Header = () => {
           backgroundColor: "grey",
         }}
       ></div>
+
+      <PlanCard/>
 
 
     </Box>
