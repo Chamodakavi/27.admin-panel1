@@ -3,8 +3,6 @@
 import {
   Box,
   DrawerBody,
-  DrawerContent,
-  DrawerFooter,
   DrawerRoot,
   HStack,
   Icon,
