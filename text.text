@@ -1,0 +1,7 @@
+const StyledInput = styled(Input)`
+border:none;
+color:white;
+  &:focus {
+    outline: none; 
+  }
+`;

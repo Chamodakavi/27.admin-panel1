@@ -27,13 +27,7 @@ import { FaRegStar } from "react-icons/fa";
 import { RxExit } from "react-icons/rx";
 import { IoMenu } from "react-icons/io5";
 
-const StyledInput = styled(Input)`
-border:none;
-color:white;
-  &:focus {
-    outline: none; 
-  }
-`;
+
 
 const StyledIcon = styled(Icon)`
 margin-Right:10px;
