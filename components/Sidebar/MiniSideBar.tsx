@@ -18,7 +18,7 @@ function MiniSideBar() {
     <Box
       display={{ mdDown: "flex", md: "none" }}
       justifyContent={"space-between"}
-      width={"15%"}
+      width={'10%'}
       bgColor={"blue.700"}
       height={"100vh"}
       maxHeight={"100vh"}
