@@ -1,0 +1,10 @@
+body{
+    background-color: #fff;
+    color: black;
+}
+
+.ruler{
+    height: "20px";
+    width: "95%";
+    background-color: red;
+}
