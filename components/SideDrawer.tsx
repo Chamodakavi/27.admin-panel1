@@ -90,7 +90,7 @@ function SideDrawer() {
           >
             <HStack px={2}>
               <FaSearch />
-              <StyledInput
+              <Input
                 type="text"
                 placeholder="Search"
                 color={"gray.700"}
